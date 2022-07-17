@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/07/07/hexo/hello-world/</loc>
+    
+    <lastmod>2022-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/07/16/algorithm/Acwing/BlueBridgeCup/4-EnumerationAndSimulationAndSorting/466-%E5%9B%9E%E6%96%87%E6%97%A5%E6%9C%9F(%E6%A8%A1%E6%8B%9F,%E6%9E%9A%E4%B8%BE)/</loc>
     
     <lastmod>2022-07-16</lastmod>
@@ -1956,15 +1965,6 @@
   
   <url>
     <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2022-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/07/07/hexo/hello-world/</loc>
     
     <lastmod>2022-07-16</lastmod>
     
