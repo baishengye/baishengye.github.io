@@ -1,0 +1,13 @@
+@use "sass:math";
+
+$baseWidth: 350px;
+$baseHeight: 230px;
+
+@function px2rem($px) {
+  $rem: 37.5px;
+  ////@return ($px / $rem) + rem;
+  //@return math.div($rem, $px) + rem;
+  @return math.div($px, $rem) + rem;
+  //@return rem;
+}
+
