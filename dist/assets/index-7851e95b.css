@@ -33,7 +33,7 @@
     font-family: Russo One;
     font-style: normal;
     font-weight: 400;
-    src: url(../static/font/fire3.woff2) format("woff2");
+    src: url(../../static/font/fire3.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 }
 
@@ -513,7 +513,7 @@ body {
     transform: translate(-50%, -50%);
     width: 2.1333333333rem;
     height: 2.1333333333rem;
-    background: url(./seal-new-e864ce17.jpg) no-repeat center;
+    background: url(seal-new-e864ce17.jpg) no-repeat center;
     background-size: 100% 100%;
     z-index: 5060;
     cursor: pointer
@@ -524,7 +524,7 @@ body {
     bottom: -.1333333333rem;
     width: 2.6666666667rem;
     height: .6666666667rem;
-    background: url(./silk-4c9ad671.png) no-repeat center;
+    background: url(silk-4c9ad671.png) no-repeat center;
     background-size: 100% 100%;
     z-index: 5007
 }
