@@ -37,6 +37,9 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          branch: gh-pages # 部署后提交到那个分支
+          folder: dist # 这里填打包好的目录名称
 
   # Deployment job
   deploy:
