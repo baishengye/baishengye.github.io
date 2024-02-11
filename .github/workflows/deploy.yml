@@ -12,17 +12,15 @@ on:
       - 'vite.config.js'
 # 任务
 jobs:
-  test:
-    # 运行的环境
-    runs-on: ubuntu-latest
-    # 步骤
-    steps:
-      - uses: actions/checkout@v2 # git pull
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16
-      - run: node -v
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "14.x"
+            - run: node -v
             - run: npm install
             - run: npm run build
             - name: Deploy # 部署
@@ -30,5 +28,3 @@ jobs:
               with:
                   branch: gh-pages # 部署后提交到那个分支
                   folder: dist # 这里填打包好的目录名称
-
-
